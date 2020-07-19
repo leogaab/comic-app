@@ -3,7 +3,7 @@
 
 <div class="card-columns">
 
-  <div class="card" *ngFor="let heroe of heroes; let i = index">
+  <div class="card animated fadeIn fast" *ngFor="let heroe of heroes; let i = index">
     <img [src]="heroe.img" class="card-img-top" [alt]="heroe.nombre">
     <div class="card-body">
       <h5 class="card-title">{{ heroe.nombre }}</h5>
